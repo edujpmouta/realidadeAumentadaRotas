@@ -16,7 +16,7 @@ window.onload = () => {
             zoomOffset: -1
         }).addTo(map);
         marker = L.marker([-1.4303213168335724, -48.47871293336254]).addTo(map);
-        marker.bindPopup("<b>IFPA Campus Belém<b>").openPopup();
+        marker.bindPopup("<b>Teste<b>").openPopup();
 
         marker.on("dblclick", (e) => {
             window.location.href = "Mapa.html";
