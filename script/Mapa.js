@@ -5,10 +5,10 @@ AFRAME.registerComponent('cursor-listener', {
             let id = this.id;
             switch (id) {
                 case "ponto1":
-                    texto.setAttribute("text", "width: 1; lineHeight: 50; letterSpacing: 5; color: white; align: center ; value: Garagem 68")
+                    texto.setAttribute("text", "width: 1; lineHeight: 50; letterSpacing: 5; color: white; align: center ; value: Bloco C")
                     break;
                 case "ponto2":
-                    texto.setAttribute("text", "width: 1; lineHeight: 50; letterSpacing: 5; color: white; align: center ; value: Casa 73")
+                    texto.setAttribute("text", "width: 1; lineHeight: 50; letterSpacing: 5; color: white; align: center ; value: Bloco M")
                     break;
                 case "ponto3":
                     texto.setAttribute("text", "width: 1; lineHeight: 50; letterSpacing: 5; color: white; align: center ; value: Biblioteca")
