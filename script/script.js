@@ -16,7 +16,7 @@ window.onload = () => {
             zoomOffset: -1
         }).addTo(map);
         marker = L.marker([-1.4383867951438654, -48.46048779059808]).addTo(map);
-        marker.bindPopup("<b>Teste<b>").openPopup();
+        marker.bindPopup("<b>IFPA<b>").openPopup();
 
         marker.on("dblclick", (e) => {
             window.location.href = "Mapa.html";
