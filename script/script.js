@@ -15,7 +15,7 @@ window.onload = () => {
             tileSize: 512,
             zoomOffset: -1
         }).addTo(map);
-        marker = L.marker([-1.4303213168335724, -48.47871293336254]).addTo(map);
+        marker = L.marker([-1.4383867951438654, -48.46048779059808]).addTo(map);
         marker.bindPopup("<b>Teste<b>").openPopup();
 
         marker.on("dblclick", (e) => {
