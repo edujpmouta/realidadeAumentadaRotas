@@ -5,10 +5,10 @@ AFRAME.registerComponent('cursor-listener', {
             let id = this.id;
             switch (id) {
                 case "ponto1":
-                    texto.setAttribute("text", "width: 1; lineHeight: 50; letterSpacing: 5; color: white; align: center ; value: Bloco C")
+                    texto.setAttribute("text", "width: 1; lineHeight: 50; letterSpacing: 5; color: white; align: center ; value: Quadra")
                     break;
                 case "ponto2":
-                    texto.setAttribute("text", "width: 1; lineHeight: 50; letterSpacing: 5; color: white; align: center ; value: Bloco M")
+                    texto.setAttribute("text", "width: 1; lineHeight: 50; letterSpacing: 5; color: white; align: center ; value: Auditorio")
                     break;
                 case "ponto3":
                     texto.setAttribute("text", "width: 1; lineHeight: 50; letterSpacing: 5; color: white; align: center ; value: Biblioteca")
@@ -33,8 +33,8 @@ AFRAME.registerComponent('cursor-listener', {
             navigator.geolocation.getCurrentPosition((e) => {
                 let lat = e.coords.latitude;
                 let long = e.coords.longitude;
-                let dist = Math.trunc(getDistanceKm(latEntity, longEntity, lat, long) * 100) / 100;
-                textoDist.setAttribute("text", "width: 1; lineHeight: 50; letterSpacing: 5; color: white; align: center; value: Distancia: " + dist + " Km");
+                let dist = (Math.trunc(getDistanceKm(latEntity, longEntity, lat, long) * 100) / 100) * 1000;
+                textoDist.setAttribute("text", "width: 1; lineHeight: 50; letterSpacing: 5; color: white; align: center; value: Distancia: " + dist + " metros");
                 textoDist.setAttribute("visible", "true");
                 setTimeout(() => {
                     textoDist.setAttribute("visible", "false");
