@@ -5,7 +5,7 @@ AFRAME.registerComponent('cursor-listener', {
             let id = this.id;
             switch (id) {
                 case "ponto1":
-                    texto.setAttribute("text", "width: 1; lineHeight: 50; letterSpacing: 5; color: white; align: center ; value: Quadra")
+                    texto.setAttribute("text", "width: 1; lineHeight: 50; letterSpacing: 5; color: white; align: center ; value: Oficina")
                     break;
                 case "ponto2":
                     texto.setAttribute("text", "width: 1; lineHeight: 50; letterSpacing: 5; color: white; align: center ; value: Galpão")
