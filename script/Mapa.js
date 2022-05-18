@@ -8,7 +8,7 @@ AFRAME.registerComponent('cursor-listener', {
                     texto.setAttribute("text", "width: 1; lineHeight: 50; letterSpacing: 5; color: white; align: center ; value: Quadra")
                     break;
                 case "ponto2":
-                    texto.setAttribute("text", "width: 1; lineHeight: 50; letterSpacing: 5; color: white; align: center ; value: Auditorio")
+                    texto.setAttribute("text", "width: 1; lineHeight: 50; letterSpacing: 5; color: white; align: center ; value: Galpão")
                     break;
                 case "ponto3":
                     texto.setAttribute("text", "width: 1; lineHeight: 50; letterSpacing: 5; color: white; align: center ; value: Biblioteca")
