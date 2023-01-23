@@ -13,16 +13,18 @@
         renderer="colorManagement: true, physicallyCorrectLights" vr-mode-ui="enabled: false"
         device-orientation-permission-ui="enabled: false">
         <a-assets>
-            <a-asset-item id="Eduardo" src="./assets/setaif.glb"></a-asset-item>
-            <a-asset-item id="Blibioteca" src="./assets/setaif.glb"></a-asset-item>
+            <a-asset-item id="Bloco_C" src="./assets/setaif.glb"></a-asset-item>
+            <a-asset-item id="Blibioteca" src="./assets/setazul.glb"></a-asset-item>
         </a-assets>
 
         <a-camera position="0 0 0" look-controls="enabled: false"></a-camera>
         <a-entity mindar-image-target="targetIndex: 0">
-            <a-gltf-model rotation="90 0 0 " position="-1 0 -3" scale="0.5 0.5 0.5" src="#Eduardo"></a-gltf-model>
+            <a-gltf-model rotation="90 0 0 " position="-1 0 -3" scale="0.5 0.5 0.5" src="#Bloco_C"
+                animation-mixer></a-gltf-model>
         </a-entity>
         <a-entity mindar-image-target="targetIndex: 1">
-            <a-gltf-model rotation="90 0 0 " position="-1 0 -3" scale="0.5 0.5 0.5" src="#Blibioteca"></a-gltf-model>
+            <a-gltf-model rotation="90 0 0 " position="-1 0 -3" scale="0.5 0.5 0.5" src="#Blibioteca"
+                animation-mixer></a-gltf-model>
         </a-entity>
     </a-scene>
 </body>
